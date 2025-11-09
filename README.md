@@ -1,16 +1,14 @@
 # 右键菜单管理工具
 
-[![Build and Release](https://github.com/yourusername/OpenAsMenu/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/yourusername/OpenAsMenu/actions/workflows/build-and-release.yml)
-[![CI Build](https://github.com/yourusername/OpenAsMenu/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/OpenAsMenu/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://www.microsoft.com/windows)
 
 这是一个功能强大的Windows右键菜单管理工具，使用C# WPF开发，支持自定义右键菜单项和Win11菜单样式切换。
 
-## 📥 下载
+## 下载
 
-前往 [Releases](https://github.com/yourusername/OpenAsMenu/releases/latest) 页面下载最新版本：
+前往 [Releases](https://github.com/pengcunfu/OpenAsMenu/releases/latest) 页面下载最新版本：
 
 - **独立版本（推荐）**: 无需安装 .NET，开箱即用
 - **依赖版本**: 需要安装 [.NET 8.0 运行时](https://dotnet.microsoft.com/download/dotnet/8.0)
@@ -75,18 +73,18 @@ OpenAsMenu/
 ## 从Go版本的迁移内容
 
 ### 功能对等性
-- ✅ 管理员权限检查和UAC提升
-- ✅ 配置文件管理（JSON格式）
-- ✅ 注册表操作（添加/删除右键菜单）
-- ✅ 实时状态检测和刷新
-- ✅ 路径验证和文件浏览
-- ✅ 错误处理和用户提示
+- 管理员权限检查和UAC提升
+- 配置文件管理（JSON格式）
+- 注册表操作（添加/删除右键菜单）
+- 实时状态检测和刷新
+- 路径验证和文件浏览
+- 错误处理和用户提示
 
 ### 新增功能
-- ✅ Win11右键菜单样式切换
-- ✅ 系统版本自动检测
-- ✅ 资源管理器自动重启
-- ✅ 注册表访问权限测试
+- Win11右键菜单样式切换
+- 系统版本自动检测
+- 资源管理器自动重启
+- 注册表访问权限测试
 
 ### 界面改进
 - 从Go的Fyne GUI迁移到C# WPF
@@ -169,4 +167,13 @@ dotnet publish --configuration Release --self-contained true --runtime win-x64
 
 ## 许可证
 
-本项目基于原Go版本迁移，继承其开源许可证。
+本项目采用 [Apache License 2.0](LICENSE) 开源许可证。
+
+## 贡献
+
+欢迎提交 Issue 和 Pull Request！
+
+## 联系方式
+
+- 项目地址：https://github.com/pengcunfu/OpenAsMenu
+- 问题反馈：https://github.com/pengcunfu/OpenAsMenu/issues
