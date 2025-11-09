@@ -1,6 +1,19 @@
 # 右键菜单管理工具
 
+[![Build and Release](https://github.com/yourusername/OpenAsMenu/actions/workflows/build-and-release.yml/badge.svg)](https://github.com/yourusername/OpenAsMenu/actions/workflows/build-and-release.yml)
+[![CI Build](https://github.com/yourusername/OpenAsMenu/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/OpenAsMenu/actions/workflows/ci.yml)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![.NET](https://img.shields.io/badge/.NET-8.0-purple.svg)](https://dotnet.microsoft.com/download/dotnet/8.0)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://www.microsoft.com/windows)
+
 这是一个功能强大的Windows右键菜单管理工具，使用C# WPF开发，支持自定义右键菜单项和Win11菜单样式切换。
+
+## 📥 下载
+
+前往 [Releases](https://github.com/yourusername/OpenAsMenu/releases/latest) 页面下载最新版本：
+
+- **独立版本（推荐）**: 无需安装 .NET，开箱即用
+- **依赖版本**: 需要安装 [.NET 8.0 运行时](https://dotnet.microsoft.com/download/dotnet/8.0)
 
 ## 功能特点
 
